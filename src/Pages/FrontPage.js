@@ -1,5 +1,6 @@
+import Button from '@restart/ui/esm/Button';
 import React from 'react';
-import { Container } from 'react-bootstrap'
+import { Container, Card } from 'react-bootstrap'
 
 
 import './FrontPage.css';
@@ -15,10 +16,13 @@ class FrontPage extends React.Component {
             <div>
 
                 <Container>
-                    <h1 class="text-center display-1 mt-5 p-5">
-                                STS</h1>
+                    
+                     <h1 class="text-center display-1 mt-5 p-5">
+                                    STS</h1>
+                   
                     <Container className="d-flex align-items-center justify-content-center"
-                    style ={{minHeight: "25vh"}}>
+                    style ={{minHeight: "25vh"}}
+                    >
                         
                         
                         
